@@ -28,14 +28,14 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Connect With Us</h4>
             <div className="flex space-x-4">
               <a
-                href="mailto:contact@warwickkickstart.com"
+                href="mailto:hello@kickstartwarwick.com"
                 className="p-2 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-all duration-200"
                 aria-label="Email"
               >
                 <Mail size={20} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/warwick-kickstart-society/posts/?feedView=all"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-all duration-200"
@@ -44,7 +44,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/warwickkickstart/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-all duration-200"
