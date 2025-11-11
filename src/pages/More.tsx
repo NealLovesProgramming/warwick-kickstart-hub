@@ -15,7 +15,7 @@ const More = () => {
     {
       title: "A Women in Kickstart event with Rewrite The Code",
       date: "November 18, 2025",
-      description: "TBD",
+      description: "",
     },
     {
       title: "Xelerate Programme Launch Event",
