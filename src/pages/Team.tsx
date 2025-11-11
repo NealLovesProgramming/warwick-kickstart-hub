@@ -27,7 +27,7 @@ const Team = () => {
     {
       name: "Shreeyansh Dey",
       role: "Secretary",
-      image: "/team/shreeyansh.jpg",
+      image: "/team/shreeyansh-dey.jpg",
     },
     {
       name: "Neal Batra",
