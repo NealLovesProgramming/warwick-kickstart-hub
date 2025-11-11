@@ -6,12 +6,12 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Aditya Patel",
-      role: "President",
+      role: "Vice President",
       image: "/team/aditya.jpg",
     },
     {
       name: "Nandini Agarwal",
-      role: "Vice President",
+      role: "President",
       image: "/team/nandini.jpg",
     },
     {
