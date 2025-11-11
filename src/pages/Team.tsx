@@ -5,34 +5,34 @@ import PageLayout from "@/components/PageLayout";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Sarah Johnson",
+      name: "Aditya Patel",
       role: "President",
-      image: "/team/sarah.jpg",
+      image: "/team/aditya.jpg",
     },
     {
-      name: "Michael Chen",
+      name: "Nandini Agarwal",
       role: "Vice President",
-      image: "/team/michael.jpg",
+      image: "/team/nandini.jpg",
     },
     {
-      name: "Emily Rodriguez",
-      role: "Director of Operations",
-      image: "/team/emily.jpg",
+      name: "Shriman Nagappan",
+      role: "Chairman",
+      image: "/team/shriman.jpg",
     },
     {
-      name: "James Williams",
-      role: "Director of Projects",
-      image: "/team/james.jpg",
+      name: "Angel Owusu",
+      role: "Secretary",
+      image: "/team/angel.jpg",
     },
     {
-      name: "Aisha Patel",
-      role: "Director of Marketing",
-      image: "/team/aisha.jpg",
+      name: "Shreeyansh Dey",
+      role: "Secretary",
+      image: "/team/shreeyansh.jpg",
     },
     {
-      name: "David Kim",
-      role: "Director of Finance",
-      image: "/team/david.jpg",
+      name: "Neal Batra",
+      role: "Head of Technology",
+      image: "/team/neal.jpg",
     },
   ];
 
