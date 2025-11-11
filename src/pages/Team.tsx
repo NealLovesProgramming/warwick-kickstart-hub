@@ -66,15 +66,12 @@ const Team = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <Card className="overflow-hidden hover:shadow-card transition-all duration-300 group">
-                  <div className="aspect-square bg-gradient-primary-soft relative overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-primary opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="text-center text-primary-foreground">
-                        <div className="w-24 h-24 bg-primary-foreground/20 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl font-bold">
-                          {member.name.charAt(0)}
-                        </div>
-                      </div>
-                    </div>
+                  <div className="aspect-square relative overflow-hidden bg-muted">
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
                   <CardContent className="p-6 text-center">
                     <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
