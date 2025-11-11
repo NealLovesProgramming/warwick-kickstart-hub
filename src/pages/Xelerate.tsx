@@ -110,11 +110,13 @@ const Xelerate = () => {
                   </p>
                 </div>
 
-                <Link to="/xelerate/apply">
-                  <Button size="lg" className="shadow-elegant">
-                    Apply Now
-                  </Button>
-                </Link>
+                <div className="mt-8">
+                  <Link to="/xelerate/apply">
+                    <Button size="lg" className="shadow-elegant">
+                      Apply Now
+                    </Button>
+                  </Link>
+                </div>
               </motion.div>
             </div>
 
