@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Xelerate from "./pages/Xelerate";
+import XelerateApply from "./pages/XelerateApply";
 import Team from "./pages/Team";
 import AlphaSights from "./pages/AlphaSights";
 import More from "./pages/More";
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/xelerate" element={<Xelerate />} />
+          <Route path="/xelerate/apply" element={<XelerateApply />} />
           <Route path="/team" element={<Team />} />
           <Route path="/alphasights" element={<AlphaSights />} />
           <Route path="/more" element={<More />} />

@@ -125,17 +125,59 @@ const Xelerate = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-center mt-12"
+            className="mt-16"
           >
-            <h3 className="text-2xl font-bold mb-4">Ready to Accelerate Your Growth?</h3>
-            <p className="text-muted-foreground mb-6">
-              Applications for the next cohort open soon. Stay tuned for updates.
-            </p>
-            <Link to="/more">
-              <Button size="lg" className="shadow-elegant">
-                Join Our Mailing List
-              </Button>
-            </Link>
+            <h2 className="text-3xl font-bold mb-8 text-center">Upcoming Event</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8 items-start mb-12">
+              <div className="rounded-xl overflow-hidden shadow-card">
+                <img 
+                  src="/xelerate-event.jpg" 
+                  alt="Startup Career Insights Panel at The Shard"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-2xl font-bold mb-2">Time & Location</h3>
+                  <p className="text-lg font-semibold text-primary mb-2">February 2025</p>
+                  <p className="text-muted-foreground">
+                    The Shard, London<br />
+                    32 London Bridge St, London SE1 9SG, UK
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold mb-3">About the Event</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Xelerate is all about innovation and creativity sans limits. Hosted at The Shard, London, in partnership with the University of Warwick - Warwick Business School, the event commenced with an engaging networking session, leading on the series of presentations from the participants.
+                  </p>
+                  <p className="text-muted-foreground">
+                    Designed to foster entrepreneurship and innovation among students, the program offers a comprehensive pathway for budding entrepreneurs through workshops and training on essential business topics, mentorship from experienced professionals, and numerous networking opportunities with industry leaders. Xelerate builds a supportive community, empowering students to transform their innovative ideas into successful businesses and contributing to the broader entrepreneurial ecosystem.
+                  </p>
+                </div>
+
+                <Link to="/xelerate/apply">
+                  <Button size="lg" className="shadow-elegant w-full md:w-auto">
+                    Apply Now
+                  </Button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="rounded-xl overflow-hidden shadow-card h-96">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.540831038835!2d-0.08877492346208774!3d51.50454397181546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603596a19b1c7%3A0xe78df6a39f2ee70b!2sThe%20Shard!5e0!3m2!1sen!2suk!4v1709735423891!5m2!1sen!2suk"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="The Shard Location"
+              />
+            </div>
           </motion.div>
         </div>
       </section>
