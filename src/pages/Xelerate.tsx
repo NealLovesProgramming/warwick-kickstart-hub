@@ -109,24 +109,16 @@ const Xelerate = () => {
                     Designed to foster entrepreneurship and innovation among students, the program offers a comprehensive pathway for budding entrepreneurs through workshops and training on essential business topics, mentorship from experienced professionals, and numerous networking opportunities with industry leaders. Xelerate builds a supportive community, empowering students to transform their innovative ideas into successful businesses and contributing to the broader entrepreneurial ecosystem.
                   </p>
                 </div>
+
+                <Link to="/xelerate/apply">
+                  <Button size="lg" className="shadow-elegant">
+                    Apply Now
+                  </Button>
+                </Link>
               </motion.div>
             </div>
 
-            <motion.div 
-              className="flex justify-center mb-16"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-            >
-              <Link to="/xelerate/apply">
-                <Button size="lg" className="shadow-elegant text-lg px-12 py-6 h-auto">
-                  Apply Now
-                </Button>
-              </Link>
-            </motion.div>
-
-            <motion.div 
+            <motion.div
               className="rounded-2xl overflow-hidden shadow-card h-96"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
