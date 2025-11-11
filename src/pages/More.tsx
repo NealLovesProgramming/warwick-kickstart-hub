@@ -140,17 +140,17 @@ const More = () => {
               {[
                 {
                   title: "Kickstart Celebrates 50th Project Milestone",
-                  date: "February 28, 2024",
+                  date: "October 2, 2025",
                   excerpt: "We're proud to announce the completion of our 50th consulting project, marking a significant milestone in our organization's impact.",
                 },
                 {
                   title: "New Partnership with AlphaSights Announced",
-                  date: "February 15, 2024",
+                  date: "August 16, 2025",
                   excerpt: "Exciting news as we formalize our strategic partnership with AlphaSights, bringing enhanced opportunities for our members.",
                 },
                 {
                   title: "Xelerate Winter Cohort Achieves Outstanding Results",
-                  date: "February 1, 2024",
+                  date: "September 28, 2025",
                   excerpt: "Our latest Xelerate cohort delivered exceptional results across all projects, receiving outstanding feedback from clients.",
                 },
               ].map((news, index) => (
