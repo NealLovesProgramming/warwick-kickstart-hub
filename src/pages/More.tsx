@@ -13,19 +13,19 @@ const More = () => {
 
   const upcomingEvents = [
     {
-      title: "Xelerate Program Information Session",
-      date: "March 15, 2024",
-      description: "Learn about our flagship consulting program and application process.",
+      title: "A Women in Kickstart event with Rewrite The Code",
+      date: "November 18, 2025",
+      description: "TBD",
     },
     {
-      title: "AlphaSights Networking Event",
-      date: "March 22, 2024",
-      description: "Meet professionals from AlphaSights and explore career opportunities.",
+      title: "Xelerate Programme Launch Event",
+      date: "November 27, 2025",
+      description: "5 to 7 pm",
     },
     {
-      title: "Spring Consulting Workshop",
-      date: "April 5, 2024",
-      description: "Hands-on workshop covering case interview preparation and strategy.",
+      title: "Who wants to be a CEO event?",
+      date: "December 4, 2025",
+      description: "2 to 7 pm",
     },
   ];
 
