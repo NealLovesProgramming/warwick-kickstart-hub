@@ -5,11 +5,6 @@ import PageLayout from "@/components/PageLayout";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Aditya Patel",
-      role: "President",
-      image: "/team/aditya.jpg",
-    },
-    {
       name: "Nandini Agarwal",
       role: "Vice President",
       image: "/team/nandini.jpg",
@@ -17,7 +12,7 @@ const Team = () => {
     {
       name: "Shriman Nagappan",
       role: "Chairman",
-      image: "/team/shriman.jpg",
+      image: "/team/shreeyansh.jpg",
     },
     {
       name: "Angel Owusu",
